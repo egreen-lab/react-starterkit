@@ -1,3 +1,4 @@
+import MGUI from '../bower_components/material-design-lite/material.js'
 import React from 'react';
 import Router from 'react-router';
 import routes from './routes';

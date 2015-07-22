@@ -14,10 +14,19 @@ class Header extends React.Component{
 
         <nav className="clearfix">
           <div className="nav-item">
-            <Link to="home">Home</Link>
+            <Link to="home">
+              <button className="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                <i className="material-icons">add</i>
+              </button>
+
+            </Link>
           </div>
           <div className="nav-item">
-            <Link to="info">Info</Link>
+            <Link to="info">
+              <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                Button
+              </button>
+            </Link>
           </div>
         </nav>
       </header>
